@@ -8,7 +8,16 @@
 
   **我自己用的情况下，提示环境变量问题，找不到类函数，所以改了个简单的bat脚本**
 
+  **bat_Code**
 
-**bat_Code**
+  `start "" "C:\ProgramData\Oracle\Java\javapath\java.exe" -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"`
 
-`start "" "C:\ProgramData\Oracle\Java\javapath\java.exe" -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"`
+- Linux使用
+
+  **直接java -jar加载即可**
+
+  `java -jar burp-loader-helper.jar`
+
+  **或者添加一个alias**
+
+  `alias bs2.1="java -jar /opt/BurpSuiteCommunity/burp-loader-helper.jar"`
