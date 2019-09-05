@@ -21,3 +21,7 @@
   **或者添加一个alias**
 
   `alias bs2.1="java -jar /opt/BurpSuiteCommunity/burp-loader-helper.jar"`
+
+> 长期更新地址
+
+[西门吹雪](http://ximcx.cn/post-110.html)
