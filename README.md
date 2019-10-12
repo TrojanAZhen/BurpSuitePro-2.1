@@ -44,6 +44,10 @@
   13-完成，开始使用
   ```
 
+> 使用说明
+
+**两个bat文件启动前，都需要先通过burp-loader-helper.jar启动一次，否则依旧提示需要注册Key**
+
 > 长期更新地址
 
 [西门吹雪](http://ximcx.cn/post-110.html)

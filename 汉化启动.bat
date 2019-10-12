@@ -1,0 +1,1 @@
+java -Dfile.encoding=utf-8 -javaagent:BurpSuiteCn.jar -Xbootclasspath/p:burp-loader-helper.jar  -Xmx1024m -jar burpsuite_pro_v2.0.11beta.jar
