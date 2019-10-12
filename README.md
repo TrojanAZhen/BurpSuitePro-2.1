@@ -24,7 +24,7 @@
 
 > 下载使用
 
-**zip包拆分成了三个，所以如果在github下载的话，请把三个i_dont_know_this的包**
+**zip包拆分成了三个，所以如果在github下载的话，请把三个i_dont_know_this的包下载，并解压后缀为zip的压缩包**
 
 > 长期更新地址
 
