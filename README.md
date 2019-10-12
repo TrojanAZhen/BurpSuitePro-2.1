@@ -22,6 +22,10 @@
 
   `alias bs2.1="java -jar /opt/BurpSuiteCommunity/burp-loader-helper.jar"`
 
+> 下载使用
+
+**zip包拆分成了三个，所以如果在github下载的话，请把三个i_dont_know_this的包**
+
 > 长期更新地址
 
 [西门吹雪](http://ximcx.cn/post-110.html)
