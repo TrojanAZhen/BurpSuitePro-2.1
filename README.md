@@ -1,47 +1,49 @@
 ## BurpSuitePro-2.1
 
-**破解BurpSuitePro-2.1版本**
+**破解BurpSuitePro-2.1.04版本**
 
-[补丁下载](http://pan.ximcx.cn/show/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7/%E6%8A%93%E5%8C%85%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/Burp%20Suite%20Pro%E7%A0%B4%E8%A7%A3%E7%89%88%E9%9B%86%E5%90%88/2.1.x/BurpSuite_pro_v2.1%E7%A0%B4%E8%A7%A3%E7%89%88.rar)
+**补丁下载，目前已上传Git。。。稍后更新mega地址**
 
 - Win使用
 
   ```
-  0-在Oracle官网下载Jre并安装;
-  1-在BurpSuite官网，下载Community版本的安装包，并安装;
-  2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar;
-  3-把burp-loader-helper.jar移动到BurpSuite的安装目录里面
-  4-双击启动burp-loader-helper.jar，如果提示找不到类函数，在cmd或powershell里面运行
-  java -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  0-Pro 2.1.04的加载补丁必须JDK8。。。
+  1-在BurpSuite官网，下载Community版本的安装包;
+  2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  3-打开burp-loader-keygen.jar
+  Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"
+  
+  4-打开burpsuite_community.jar
+  java -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  
+  5-取消协助，同意协议
+  6-随意修改burp-loader-keygen的License Text
+  7-把License复制到BurpSuite
+  8-点击Manual activation，点击Copy request
+  9-把Request复制到burp-loader-keygen的Activation Request
+  10-把自动生成的Activation Response复制回BurpSuite
+  11-完成，开始使用
+  12-持久启动必须先加载keygen，不然依旧要license key
   ```
-
-  **我自己用的情况下，提示环境变量问题，找不到类函数，所以改了个简单的bat脚本**
 
   **bat_Code**
 
-  `start "" "C:\ProgramData\Oracle\Java\javapath\java.exe" -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"`
+  `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
+
+  **TLS1.3和ipv4的问题**
+
+  `Djava.net.preferIPv4Stack=true`
 
 - Linux使用
 
   ```
-  1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2.1.sh"
-  3-把破解的2.1 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
-  4-把burp-loader-helper.jar移动到BurpSuite的安装目录里面
+  还未测试。。。
   ```
-
-  **直接java -jar加载即可**
-
-  `java -jar burp-loader-helper.jar`
-
-  **或者添加一个alias**
-
-  `alias bs2.1="java -jar /opt/BurpSuiteCommunity/burp-loader-helper.jar"`
 
 > 下载使用
 
-**zip包拆分成了三个，所以如果在github下载的话，请把三个i_dont_know_this的包下载，并解压后缀为zip的压缩包**
+**zip包拆分成了三个，所以如果在github下载的话，请把三个pro_2.1.04的包下载，并解压后缀为zip的压缩包**
 
-> 长期更新地址
+> [西门吹雪](http://ximcx.cn/post-110.html)
 
-[西门吹雪](http://ximcx.cn/post-110.html)
+> [52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
