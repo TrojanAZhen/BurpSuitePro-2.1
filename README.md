@@ -2,7 +2,7 @@
 
 **破解BurpSuitePro-2.1.04版本**
 
-**补丁下载，目前已上传Git。。。稍后更新mega地址**
+**[MEGA补丁下载](https://mega.nz/#!OsZW1KqQ!NyzJmk_pNKWyS7SJFo1uUZz9io9Mkn1fiDyai1V6_98)**
 
 - Win使用
 
@@ -37,13 +37,30 @@
 - Linux使用
 
   ```
-  还未测试。。。
+  0-2.1.04的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
+  1-在BurpSuite官网，下载Community版本的sh文件;
+  2-安装"sudo bash burpsuite_community_linux_v2_1_04.sh"
+  3-把破解的2.1.04 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  4-启动burp-loader-helper.jar
+  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
+  
+  5-启动BurpSuiteCommunity
+  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
+
+  6-取消协助，同意协议
+  7-随意修改burp-loader-keygen的License Text
+  8-把License复制到BurpSuite
+  9-点击Manual activation，点击Copy request
+  10-把Request复制到burp-loader-keygen的Activation Request
+  11-把自动生成的Activation Response复制回BurpSuite
+  12-完成，开始使用
+  13-可以写个执行的shell，扔到/usr/bin下面
   ```
 
 > 下载使用
 
 **zip包拆分成了三个，所以如果在github下载的话，请把三个pro_2.1.04的包下载，并解压后缀为zip的压缩包**
 
-> [西门吹雪](http://ximcx.cn/post-110.html)
-
 > [52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
+
+> [西门吹雪](http://ximcx.cn/post-110.html)
