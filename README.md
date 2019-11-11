@@ -1,13 +1,13 @@
 ## BurpSuitePro-2.1
 
-**破解BurpSuitePro-2.1.04版本**
+**破解BurpSuitePro-2.1.05版本**
 
-**[MEGA补丁下载](https://mega.nz/#!OsZW1KqQ!NyzJmk_pNKWyS7SJFo1uUZz9io9Mkn1fiDyai1V6_98)**
+**[MEGA补丁下载](https://mega.nz/#F!rBsHyAzB!2QjcjcNWBJx1TtG7SEAcLA?CJ01XYrD)**
 
-- Win使用
+- Win使用 (当然不安装官方包也可以，直接执行-jar jar包)
 
   ```
-  0-Pro 2.1.04的加载补丁必须JDK8。。。
+  0-Pro 2.1.05的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
   1-在BurpSuite官网，下载Community版本的安装包;
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burp-loader-keygen.jar
@@ -34,13 +34,13 @@
 
   `Djava.net.preferIPv4Stack=true`
 
-- Linux使用
+- Linux使用 (当然不安装官方包也可以，直接执行-jar jar包) 
 
   ```
-  0-2.1.04的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
+  0-2.1.05的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2_1_04.sh"
-  3-把破解的2.1.04 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-安装"sudo bash burpsuite_community_linux_v2_1_05.sh"
+  3-把破解的2.1.05 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动burp-loader-helper.jar
   /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
   
@@ -59,8 +59,10 @@
 
 > 下载使用
 
-**zip包拆分成了三个，所以如果在github下载的话，请把三个pro_2.1.04的包下载，并解压后缀为zip的压缩包**
+**zip包拆分成了三个，所以如果在github下载的话，请把三个pro_2.1.05的包下载，并解压后缀为zip的压缩包**
 
 > [52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
+
+> [大佬的链接](http://scz.617.cn:8/misc/201910151519.txt)
 
 > [西门吹雪](http://ximcx.cn/post-110.html)
