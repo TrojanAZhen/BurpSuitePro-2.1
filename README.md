@@ -24,6 +24,8 @@
   10-把自动生成的Activation Response复制回BurpSuite
   11-完成，开始使用
   12-持久启动必须先加载keygen，不然依旧要license key
+  13-使用汉化补丁
+  start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -Dfile.encoding=utf-8 -javaagent:"C:\Program Files\BurpSuiteCommunity\burpsuite_zh.jar" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   ```
 
   **bat_Code**
@@ -55,9 +57,11 @@
   11-把自动生成的Activation Response复制回BurpSuite
   12-完成，开始使用
   13-可以写个执行的shell，扔到/usr/bin下面
+  14-使用汉化补丁
+  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -javaagent:/opt/BurpSuiteCommunity/burpsuite_zh.jar -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
   ```
 
-> 下载使用
+> 长期更新
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
