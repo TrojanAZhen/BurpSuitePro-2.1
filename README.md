@@ -1,13 +1,13 @@
 ## BurpSuitePro-2.1
 
-**破解BurpSuitePro-2.1.07版本**
+**破解BurpSuitePro-2020.1版本**
 
-**[anonfile补丁下载](https://anonfile.com/9714bcK7nc/burpsuite_pro_v2.1.07_jar)**
+**[Mega补丁下载](https://mega.nz/#!gJxwHaSQ!4NoMJwD4NXe3Vsf1C7Zt_tXsYoF0bz29pdIflVtSHbo)**
 
 - Win使用 (当然不安装官方包也可以，直接执行-jar jar包)
 
   ```
-  0-Pro 2.1.07的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
+  0-Pro 2020.1的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
   1-在BurpSuite官网，下载Community版本的安装包;
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burp-loader-helper.jar
@@ -24,8 +24,6 @@
   10-把自动生成的Activation Response复制回BurpSuite
   11-完成，开始使用
   12-持久启动必须先加载keygen，不然依旧要license key
-  13-使用汉化补丁
-  start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -Dfile.encoding=utf-8 -javaagent:"C:\Program Files\BurpSuiteCommunity\burpsuite_zh.jar" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   ```
 
   **bat_Code**
@@ -39,10 +37,10 @@
 - Linux使用 (当然不安装官方包也可以，直接执行-jar jar包) 
 
   ```
-  0-2.1.07的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
+  0-2020.1的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2_1_06.sh"
-  3-把破解的2.1.07 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-安装"sudo bash burpsuite_community_linux_v2020_1.sh"
+  3-把破解的2020.1 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动burp-loader-helper.jar
   /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
   
@@ -57,8 +55,6 @@
   11-把自动生成的Activation Response复制回BurpSuite
   12-完成，开始使用
   13-可以写个执行的shell，扔到/usr/bin下面
-  14-使用汉化补丁
-  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -javaagent:/opt/BurpSuiteCommunity/burpsuite_zh.jar -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
   ```
 
 > 长期更新
