@@ -64,5 +64,3 @@
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
 
 - [3. 52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
-
-- [4. 西门吹雪](http://ximcx.cn/post-110.html)
