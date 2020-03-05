@@ -6,6 +6,8 @@
 
 - **[百度云下载](https://pan.baidu.com/s/1EXfiqdBB6Kssf58COlfG0Q)** *提取码：jo4n*
 
+- **[52爱盘下载](https://down.52pojie.cn/Tools/Network_Analyzer/)**
+
 - ~~试过上传蓝奏云，可惜最后一个压缩包死活传不上去(普通用户100m上传限制)~~
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
