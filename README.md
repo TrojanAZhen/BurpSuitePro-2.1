@@ -1,14 +1,14 @@
 ## BurpSuitePro-2020.2
 
-**破解BurpSuitePro-2020.2版本**
+> **破解BurpSuitePro-2020.2版本**
 
-**[Mega补丁下载](https://mega.nz/#!oMhwBYaZ!4l4OpE0ZiAwTqttzzPWItytOGumA6N-0b8MNY_AX4Vo)**
+- **[Mega补丁下载](https://mega.nz/#!oMhwBYaZ!4l4OpE0ZiAwTqttzzPWItytOGumA6N-0b8MNY_AX4Vo)**
 
-**[百度云下载](https://pan.baidu.com/s/1EXfiqdBB6Kssf58COlfG0Q)** *提取码：jo4n*
+- **[百度云下载](https://pan.baidu.com/s/1EXfiqdBB6Kssf58COlfG0Q)** *提取码：jo4n*
 
-~~试过上传蓝奏云，可惜最后一个压缩包死活传不上去(普通用户100m上传限制)~~
+- ~~试过上传蓝奏云，可惜最后一个压缩包死活传不上去(普通用户100m上传限制)~~
 
-- Win使用 (当然不安装官方包也可以，直接执行-jar jar包)
+> **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
   0-Pro 2020.2的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
@@ -38,7 +38,7 @@
 
   `Djava.net.preferIPv4Stack=true`
 
-- Linux使用 (当然不安装官方包也可以，直接执行-jar jar包) 
+> **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包) **
 
   ```
   0-2020.2的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
