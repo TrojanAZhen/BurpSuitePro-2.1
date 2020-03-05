@@ -38,7 +38,7 @@
 
   `Djava.net.preferIPv4Stack=true`
 
-> **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包) **
+> **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
   0-2020.2的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
