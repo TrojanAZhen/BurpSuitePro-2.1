@@ -14,7 +14,7 @@
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
-  ```
+- ```
   0-Pro 2020.2的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
   1-在BurpSuite官网，下载Community版本的安装包;
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
@@ -34,13 +34,13 @@
   12-持久启动必须先加载keygen，不然依旧要license key
   ```
 
-  **bat_Code**
+- **bat_Code**
 
-  `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
+- - `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 
-  **TLS1.3和ipv4的问题**
+- **TLS1.3和ipv4的问题**
 
-  `Djava.net.preferIPv4Stack=true`
+- - `Djava.net.preferIPv4Stack=true`
 
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
