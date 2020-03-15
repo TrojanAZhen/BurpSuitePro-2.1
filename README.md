@@ -2,15 +2,15 @@
 
 > **破解BurpSuitePro-2020.2版本**
 
-- **[Mega补丁下载](https://mega.nz/#!oMhwBYaZ!4l4OpE0ZiAwTqttzzPWItytOGumA6N-0b8MNY_AX4Vo)**
-
-- **[百度云下载](https://pan.baidu.com/s/1EXfiqdBB6Kssf58COlfG0Q)** *提取码：jo4n*
-
 - **[52爱盘下载](https://down.52pojie.cn/Tools/Network_Analyzer/)**
 
 - ~~试过上传蓝奏云，可惜最后一个压缩包死活传不上去(普通用户100m上传限制)~~
 
+- **[百度云下载](https://pan.baidu.com/s/1EXfiqdBB6Kssf58COlfG0Q)** *提取码：jo4n*
+
 - **[115网盘](https://115.com/s/sw3k0t736qr)** *访问码：ue14*
+
+- **[Mega补丁下载](https://mega.nz/#!oMhwBYaZ!4l4OpE0ZiAwTqttzzPWItytOGumA6N-0b8MNY_AX4Vo)**
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
