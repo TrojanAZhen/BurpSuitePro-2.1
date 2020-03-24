@@ -1,15 +1,13 @@
-## BurpSuitePro-2020.2
+## BurpSuitePro-2020.2.1
 
-> **破解BurpSuitePro-2020.2版本**
-
-- **[52爱盘下载](https://down.52pojie.cn/Tools/Network_Analyzer/Burp_Suite_Pro_v2020.2_Loader_Keygen.zip)**
+> **破解BurpSuitePro-2020.2.1版本**
 
 - **[Mega下载](https://mega.nz/#!hB5XwRrK!SavleJzp0FKl71TCkvtqpEhZGQ9wYLlRxnAKYoHVlZs)**
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-Pro 2020.2的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
+  0-Pro 2020.2.1的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
   1-在BurpSuite官网，下载Community版本的安装包;
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burp-loader-helper.jar
@@ -39,10 +37,10 @@
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-2020.2的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
+  0-2020.2.1的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2020_2.sh"
-  3-把破解的2020.2 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-安装"sudo bash burpsuite_community_linux_v2020_2_1.sh"
+  3-把破解的2020.2.1 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动burp-loader-helper.jar
   /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
   
