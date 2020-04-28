@@ -55,13 +55,17 @@
   13-可以写个执行的shell，扔到/usr/bin下面
   ```
 
-> 目前断更
+> **目前断更**
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
 
 - [3. 52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
+
+> **某个可以第一时间更新的网站(但多数收费)**
+
+- [Raidforums](https://raidforums.com/Forum-Cracking-Tools)
 
 > **其他**
 
