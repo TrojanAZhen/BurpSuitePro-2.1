@@ -1,13 +1,12 @@
-## BurpSuitePro-2020.2.1
+## BurpSuitePro-2020.4
 
-> **破解BurpSuitePro-2020.2.1版本**
+> **破解BurpSuitePro-2020.4版本**
 
-- **[Mega下载](https://mega.nz/#!hB5XwRrK!SavleJzp0FKl71TCkvtqpEhZGQ9wYLlRxnAKYoHVlZs)**
+- **暂无**
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-Pro 2020.2.1的加载补丁必须JDK8(只因大佬用的Java8，高版本Java换用ClassFileTransformer或其他什么技术手段来完成Patch)。。。
   1-在BurpSuite官网，下载Community版本的安装包;
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burp-loader-helper.jar
@@ -37,10 +36,9 @@
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-2020.2.1的加载补丁，不支持openjdk-11.0.5，下载一个openjdk-8先用着;
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2020_2_1.sh"
-  3-把破解的2020.2.1 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-安装"sudo bash burpsuite_community_linux_v2020_4.sh"
+  3-把破解的2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动burp-loader-helper.jar
   /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
   
@@ -57,7 +55,7 @@
   13-可以写个执行的shell，扔到/usr/bin下面
   ```
 
-> 长期更新
+> 目前断更
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
@@ -67,6 +65,24 @@
 
 > **其他**
 
+**2020-04-28 17:23 scz -- 来自四哥博客**
+
+- ```
+  有人提供了Burp Pro 2020.4原包，要求最低Java 9，不再支持Java 8。实际测试
+  Java 8确实不行，去官网看了一下说明，官方声明也是这个意思。出于好奇心，最后
+  看了一次其注册机制，没啥变化，可剁。我主要使用Java 8，并非Burp用户，能在这
+  半年来坚持更新破解，算是为大伙儿尽一点小小的心意。本来，如果它还支持Java 8，
+  我就继续剁下去。不想为这事再装Java 9，确实累了，另一方面也对之失去兴趣，没
+  有挑战性。据我所知，很多人延着我的思路在自己剁，也剁成功了。或许你们可以等
+  待新的雷锋，冥冥中另一些路见不平的老中医已经在路上。
+  
+  正式决定不再从事Burp破解，微信订阅号后台也不再接受Burp原包。今天有ID为火锅
+  爹、Mannix的两位在微信订阅号后台提供了2020.4版原包，感谢并抱歉，未能最后一
+  次提供传说中的burp-loader-keygen-2020_4.jar。
+  
+  今天是一个有些伤感的日子，但不再留恋，再见。
+  ```
+
 **2020-03-24 15:01 scz -- 来自四哥博客**
 
 - ```
@@ -75,17 +91,3 @@
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
   ```
 
-**2020-03-05 12:56 scz -- 来自四哥博客**
-
-- ```
-  有朋友提供了百度网盘下载链接，但我没推荐，因为百度网盘是我见过的最垃圾的网
-  盘。都2020年了，一个SVIP帐号在下载了1.5G之后被限速至27B/s，你没有看错单位，
-  还不如普通帐号的18KB/s。更重要的是，这些百度网盘链接很少是永久的，一般是7
-  天有效期，既然如此，不如不推荐。
-  
-  本文发出去大概30分钟后，很可能就有一大批其他公众号或什么垃圾下载网站号称第
-  一时刻提供2020.2版破解及汉化，俨然内幕人士，更大可能会要求你关注它或注册或
-  积分等等，绝口不提其实这东西已经可以自由无障碍下载获取。总之你将看到这些SB
-  们轮番出来天秀。作为长期像牛皮癣一样出现在电线杆上的老中医，我郑重奉劝年少
-  无知得病的同学们，这事，只能找老中医治，我们老中医的口号是：一针就灵。
-  ```
