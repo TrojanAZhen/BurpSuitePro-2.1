@@ -1,5 +1,7 @@
 ## BurpSuitePro-2020.4
 
+> *已往的破解版在分支里面*
+
 > **破解BurpSuitePro-2020.4版本**
 
 - **暂无**
@@ -66,6 +68,35 @@
 > **某个可以第一时间更新的网站(但多数收费)**
 
 - [Raidforums](https://raidforums.com/Forum-Cracking-Tools)
+
+> **破解**
+
+```
+Java 9至13，可以用javaagent的方式patch，这种在8上也能用。
+Java 9至13还可以用patch-module的方式，但8不能用。
+如果Burp Pro不换注册机制，可以一直这样剁下去，改来改去就7个字节。
+有VirusTotal企业帐号的可以从VT下原包。
+
+四哥原话在Bp破解上最大的贡献是演示了一种直接修改字节码的破解方式
+```
+
+**反编译jar For Linux**
+
+```
+-classpath <路径>            指定查找用户类文件和注释处理程序的位置
+
+-d <目录>                    指定放置生成的类文件的位置
+
+cd  burp-loader-keygen.jar.src
+
+javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.java
+```
+
+![](https://github.com/jas502n/BurpSuite_Pro_v1.7.37/blob/master/javac.jpg)
+
+![](https://github.com/jas502n/BurpSuite_Pro_v1.7.37/raw/master/JD-GUI.jpg)
+
+[参考jas502n](https://github.com/jas502n/BurpSuite_Pro_v1.7.37/blob/master/README.md)
 
 > **其他**
 
