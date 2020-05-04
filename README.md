@@ -17,20 +17,17 @@
   0-支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的安装包
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
-  3-打开burp-loader-helper.jar
-  Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"
-  
-  4-打开burpsuite_community.jar
+  3-打开burpsuite_community.jar
   java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
-  5-取消协助，同意协议
-  6-随意修改burp-loader-keygen的License Text
-  7-把License复制到BurpSuite
-  8-点击Manual activation，点击Copy request
-  9-把Request复制到burp-loader-keygen的Activation Request
-  10-把自动生成的Activation Response复制回BurpSuite
-  11-完成，开始使用
-  12-持久启动必须先加载keygen，不然依旧要license key
+  4-取消协助，同意协议
+  5-随意修改burp-loader-keygen的License Text
+  6-把License复制到BurpSuite
+  7-点击Manual activation，点击Copy request
+  8-把Request复制到burp-loader-keygen的Activation Request
+  9-把自动生成的Activation Response复制回BurpSuite
+  10-完成，开始使用
+  11-持久启动必须先加载keygen，不然依旧要license key
   ```
 
 **bat_Code**
@@ -39,7 +36,7 @@
 
 **TLS1.3和ipv4的问题**
 
-- `Djava.net.preferIPv4Stack=true`
+- `-Djava.net.preferIPv4Stack=true`
 
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
