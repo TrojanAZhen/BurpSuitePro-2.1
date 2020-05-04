@@ -1,7 +1,5 @@
 ## BurpSuitePro-2020.4
 
-> *已往的破解版在分支里面*
-
 > **破解BurpSuitePro-2020.4版本**
 
 - **[Mega](https://mega.nz/file/bUFS0Q5L#RvGZaKbdn65rK5BXxxM6APmRqbMbKeHraxIOgou7N5k)** *解压密码：mrxn.net*
