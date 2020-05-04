@@ -21,7 +21,7 @@
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"
   
   4-打开burpsuite_community.jar
-  java -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
   5-取消协助，同意协议
   6-随意修改burp-loader-keygen的License Text
@@ -35,7 +35,7 @@
 
 **bat_Code**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -Xbootclasspath/p:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
+- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 
 **TLS1.3和ipv4的问题**
 
@@ -48,26 +48,25 @@
   1-在BurpSuite官网，下载Community版本的sh文件;
   2-安装"sudo bash burpsuite_community_linux_v2020_4.sh"
   3-把破解的2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
-  4-启动burp-loader-helper.jar
-  /usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar burp-loader-helper.jar
-  
-  5-启动BurpSuiteCommunity
-  /usr/lib/jvm/java-11-openjdk-amd64/bin/java -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
+  4-启动BurpSuiteCommunity
+  /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
 
-  6-取消协助，同意协议
-  7-随意修改burp-loader-keygen的License Text
-  8-把License复制到BurpSuite
-  9-点击Manual activation，点击Copy request
-  10-把Request复制到burp-loader-keygen的Activation Request
-  11-把自动生成的Activation Response复制回BurpSuite
-  12-完成，开始使用
-  13-可以写个执行的shell，扔到/usr/bin下面
+  5-取消协助，同意协议
+  6-随意修改burp-loader-keygen的License Text
+  7-把License复制到BurpSuite
+  8-点击Manual activation，点击Copy request
+  9-把Request复制到burp-loader-keygen的Activation Request
+  10-把自动生成的Activation Response复制回BurpSuite
+  11-完成，开始使用
+  12-可以写个执行的shell，扔到/usr/bin下面
   ```
 > **依旧坚持更新的大佬们**
 
-- [1. 微信公众号: 姑娘 别来无恙]()
+- [1. x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
 
-- [2. Mrxn's Blog](https://mrxn.net/)
+- [2. 微信公众号: 姑娘 别来无恙]()
+
+- [3. Mrxn's Blog](https://mrxn.net/)
 
 > **致敬**
 
