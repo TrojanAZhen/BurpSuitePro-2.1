@@ -4,12 +4,18 @@
 
 > **破解BurpSuitePro-2020.4版本**
 
-- **暂无**
+- **[Mega](https://mega.nz/file/bUFS0Q5L#RvGZaKbdn65rK5BXxxM6APmRqbMbKeHraxIOgou7N5k)** *解压密码：mrxn.net*
+
+- **[vshare](https://vshare.is/58l6l2v4o6/burpsuite_pro_v2020.4_7z)** *解压密码：mrxn.net*
+
+- **[Mega](https://mega.nz/file/yjRxjK4S#k4mlJtZUN0ZB1Fb45hZywKsAsY3MZArYWm3P-pdHgsU)** *解压密码：uCare*
+
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  1-在BurpSuite官网，下载Community版本的安装包;
+  0-支持Java9-Java13
+  1-在BurpSuite官网，下载Community版本的安装包
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burp-loader-helper.jar
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar"
@@ -38,14 +44,15 @@
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
+  0-支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
   2-安装"sudo bash burpsuite_community_linux_v2020_4.sh"
   3-把破解的2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动burp-loader-helper.jar
-  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -jar burp-loader-helper.jar
+  /usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar burp-loader-helper.jar
   
   5-启动BurpSuiteCommunity
-  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
+  /usr/lib/jvm/java-11-openjdk-amd64/bin/java -noverify -Xbootclasspath/p:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
 
   6-取消协助，同意协议
   7-随意修改burp-loader-keygen的License Text
@@ -56,14 +63,17 @@
   12-完成，开始使用
   13-可以写个执行的shell，扔到/usr/bin下面
   ```
+> **依旧坚持更新的大佬们**
 
-> **目前断更**
+- [1. 微信公众号: 姑娘 别来无恙]()
+
+- [2. Mrxn's Blog](https://mrxn.net/)
+
+> **致敬**
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
-
-- [3. 52破解](https://www.52pojie.cn/thread-1038295-1-1.html)
 
 > **某个可以第一时间更新的网站(但多数收费)**
 
@@ -73,7 +83,7 @@
 
 ```
 Java 9至13，可以用javaagent的方式patch，这种在8上也能用。
-Java 9至13还可以用patch-module的方式，但8不能用。
+Java 9至13，还可以用patch-module的方式，但8不能用。
 如果Burp Pro不换注册机制，可以一直这样剁下去，改来改去就7个字节。
 有VirusTotal企业帐号的可以从VT下原包。
 
