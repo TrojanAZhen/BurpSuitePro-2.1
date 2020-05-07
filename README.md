@@ -12,7 +12,7 @@
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-支持Java9-Java13
+  0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的安装包
   2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-打开burpsuite_community.jar
@@ -39,7 +39,7 @@
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-支持Java9-Java13
+  0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
   2-安装"sudo bash burpsuite_community_linux_v2020_4.sh"
   3-把破解的2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
