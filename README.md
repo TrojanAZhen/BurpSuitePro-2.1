@@ -1,12 +1,12 @@
-## BurpSuitePro-2020.4
+## BurpSuitePro-2020.4.1
 
-> **破解BurpSuitePro-2020.4版本**
+> **破解BurpSuitePro-2020.4.1版本**
 
-- **[Mega](https://mega.nz/file/bUFS0Q5L#RvGZaKbdn65rK5BXxxM6APmRqbMbKeHraxIOgou7N5k)** *解压密码：mrxn.net*
+- **[微云](https://share.weiyun.com/i0u9iepi)**
 
-- **[vshare](https://vshare.is/58l6l2v4o6/burpsuite_pro_v2020.4_7z)** *解压密码：mrxn.net*
+- **[文叔叔](https://www.wenshushu.cn/f/2kwgu06k6ug)**
 
-- **[Mega](https://mega.nz/file/yjRxjK4S#k4mlJtZUN0ZB1Fb45hZywKsAsY3MZArYWm3P-pdHgsU)** *解压密码：uCare*
+- **[百度云](https://pan.baidu.com/s/1KQMBtxZxAxXRZ55aB81f4w)** *提取码：miku*
 
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
@@ -14,7 +14,7 @@
   ```
   0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的安装包
-  2-把破解的pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第4步即可)
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\2020_2_1-burp-loader-helper.jar"
 
@@ -44,8 +44,8 @@
   ```
   0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2020_4.sh"
-  3-把破解的2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  2-安装"sudo bash burpsuite_community_linux_v2020_4_1.sh"
+  3-把2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar 2020_2_1-burp-loader-helper.jar
 
@@ -68,6 +68,8 @@
 - [2. 微信公众号: 姑娘 别来无恙]()
 
 - [3. Mrxn's Blog](https://mrxn.net/)
+
+- [4. 小晨曦](https://xcxmiku.com/)
 
 > **致敬**
 
