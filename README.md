@@ -45,7 +45,7 @@
   0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
   2-安装"sudo bash burpsuite_community_linux_v2020_4_1.sh"
-  3-把2020.4 pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
+  3-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar 2020_2_1-burp-loader-helper.jar
 
