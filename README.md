@@ -142,3 +142,21 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
   ```
 
+> **某些错误**
+
+```
+Burp Suite 2020.4.1
+    BUG:存在消息编辑器中文本重叠的问题【致命，该问题出现在部分用户处】
+
+Burp Suite 2020.4
+    BUG:存在消息编辑器中文本重叠的问题【致命，这个版本直接舍弃】
+
+Burp Suite 2020.2.1
+    BUG:Burp Repeater中发送的每个请求的响应时间不可以正确显示【影响延时注入判定，没有响应时间，很影响使用】
+
+Burp Suite 2020.2
+    特征：文本显示正常，输入中文正常，响应时间显示正常
+
+Burp Suite 2020.1
+    输入中文异常,中文乱码
+```
