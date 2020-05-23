@@ -2,12 +2,15 @@
 
 > **破解BurpSuitePro-2020.4.1版本**
 
-- **[微云](https://share.weiyun.com/i0u9iepi)**
+- **[Mega - Pro jar包](https://mega.nz/file/PJ0H3JIL#H7Lc0spRbNd3k8W6MQz0dBivQGKlO2MM3UuNbfK5kZ4)**
 
-- **[文叔叔](https://www.wenshushu.cn/f/2kwgu06k6ug)**
+- **[Zippy - Pro jar包](https://www89.zippyshare.com/v/vtwIvMFu/file.html)**
 
-- **[百度云](https://pan.baidu.com/s/1KQMBtxZxAxXRZ55aB81f4w)** *提取码：miku*
+- **[Mega - zip包](https://mega.nz/file/SVUFSQgQ#osze1oItI_MBXNSIFoF3psYpHR3Rl6OCPfdo2Jc0jRc)** *解压密码：mrxn.net*
 
+- **[微云 - zip包](https://share.weiyun.com/i0u9iepi)**
+
+- **[百度云 - zip包](https://pan.baidu.com/s/1KQMBtxZxAxXRZ55aB81f4w)** *提取码：miku*
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
