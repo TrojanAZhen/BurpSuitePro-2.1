@@ -22,13 +22,13 @@
   Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
   5-取消协助，同意协议
-  6-随意修改burp-loader-keygen的License Text
+  6-随意修改burp-loader-helper的License Text
   7-把License复制到BurpSuite
   8-点击Manual activation，点击Copy request
-  9-把Request复制到burp-loader-keygen的Activation Request
+  9-把Request复制到burp-loader-helper的Activation Request
   10-把自动生成的Activation Response复制回BurpSuite
   11-完成，开始使用
-  12-持久启动必须先加载keygen，不然依旧要license key
+  12-持久启动必须先加载loader，不然依旧要license key
   ```
 
 **bat_script**
@@ -53,13 +53,14 @@
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
 
   6-取消协助，同意协议
-  7-随意修改burp-loader-keygen的License Text
+  7-随意修改burp-loader-helper的License Text
   8-把License复制到BurpSuite
   9-点击Manual activation，点击Copy request
-  10-把Request复制到burp-loader-keygen的Activation Request
+  10-把Request复制到burp-loader-helper的Activation Request
   11-把自动生成的Activation Response复制回BurpSuite
   12-完成，开始使用
-  13-可以写个执行的shell，扔到/usr/bin下面
+  13-持久启动必须先加载loader，不然依旧要license key
+  14-可以写个执行的shell，扔到/usr/bin下面
   ```
 > **依旧坚持更新的大佬们**
 
