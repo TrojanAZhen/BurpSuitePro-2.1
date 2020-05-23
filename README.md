@@ -19,7 +19,7 @@
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\2020_2_1-burp-loader-helper.jar"
 
   4-打开burpsuite_community.jar
-  java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
   5-取消协助，同意协议
   6-随意修改burp-loader-keygen的License Text
@@ -31,7 +31,7 @@
   12-持久启动必须先加载keygen，不然依旧要license key
   ```
 
-**bat_Code**
+**bat_script**
 
 - `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 
