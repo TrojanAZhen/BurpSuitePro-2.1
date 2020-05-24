@@ -6,7 +6,7 @@
 
 - **[Zippy - Pro jar包](https://www89.zippyshare.com/v/vtwIvMFu/file.html)**
 
-- **[Mega - zip包](https://mega.nz/file/SVUFSQgQ#osze1oItI_MBXNSIFoF3psYpHR3Rl6OCPfdo2Jc0jRc)** *解压密码：mrxn.net*
+- **[Mega - 7z包](https://mega.nz/file/SVUFSQgQ#osze1oItI_MBXNSIFoF3psYpHR3Rl6OCPfdo2Jc0jRc)** *解压密码：mrxn.net*
 
 - **[微云 - zip包](https://share.weiyun.com/i0u9iepi)**
 
