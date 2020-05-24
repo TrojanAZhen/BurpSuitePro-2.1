@@ -69,11 +69,9 @@
 
 - [1. x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
 
-- [2. 微信公众号: 姑娘 别来无恙]()
+- [2. Mrxn's Blog](https://mrxn.net/)
 
-- [3. Mrxn's Blog](https://mrxn.net/)
-
-- [4. 小晨曦](https://xcxmiku.com/)
+- [3. 小晨曦](https://xcxmiku.com/)
 
 > **致敬**
 
