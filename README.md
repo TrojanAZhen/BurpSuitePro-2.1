@@ -2,6 +2,8 @@
 
 > **破解BurpSuitePro-2020.4.1版本**
 
+- **[蓝奏云 - 分压zip](https://grayad.lanzous.com/b0bkkd96f)**
+
 - **[Mega - Pro jar包](https://mega.nz/file/PJ0H3JIL#H7Lc0spRbNd3k8W6MQz0dBivQGKlO2MM3UuNbfK5kZ4)**
 
 - **[Zippy - Pro jar包](https://www89.zippyshare.com/v/vtwIvMFu/file.html)**
