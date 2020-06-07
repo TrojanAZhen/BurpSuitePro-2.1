@@ -6,7 +6,7 @@
 
 - **[Mega - Pro jar包](https://mega.nz/file/SQ82RYzS#DsWfmm1i6pjr_Ob6gpfwyigdPUJauM2pCHQwfbzOZvs)**
 
-- **[Mega - Zip包](https://mega.nz/file/vMkEgYRZ#S-35eQEJuxcRxhl3P0o7Jg4-ASHQyT0pAP73AYObrcc)**
+- **[Mega - Zip包](https://mega.nz/file/vMkEgYRZ#S-35eQEJuxcRxhl3P0o7Jg4-ASHQyT0pAP73AYObrcc)** *解压密码：mrxn.net*
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
