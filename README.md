@@ -2,6 +2,8 @@
 
 > **破解BurpSuitePro-2020.5.1版本**
 
+- **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
+
 - **[Mega - Zip包](https://mega.nz/file/uvJ3zKjT#mFf8AGrYeLvtchUEX0oll2bQkMpEVq4i2CFE-aj0GR0)** *解压密码：pany*
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
@@ -75,7 +77,7 @@
 
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
 
-> **某个可以第一时间更新的网站(但多数收费)**
+> **某个可以第一时间更新pro jar包的网站(但多数收费)**
 
 - [Raidforums](https://raidforums.com/Forum-Cracking-Tools)
 
