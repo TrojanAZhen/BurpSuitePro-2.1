@@ -1,10 +1,10 @@
-## BurpSuitePro-2020.5.1
+## BurpSuitePro-2020.6
 
-> **破解BurpSuitePro-2020.5.1版本**
+> **破解BurpSuitePro-2020.6版本**
 
 - **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
 
-- **[Mega - Zip包](https://mega.nz/file/uvJ3zKjT#mFf8AGrYeLvtchUEX0oll2bQkMpEVq4i2CFE-aj0GR0)** *解压密码：pany*
+- **[Mega - jar包](https://mega.nz/file/WOoG2QQK#wvBqsNVkFMs0zMz6yec8GHNoMKAVLkl-JnVIG4gNDLg)**
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
@@ -41,7 +41,7 @@
   ```
   0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
-  2-安装"sudo bash burpsuite_community_linux_v2020_5_1.sh"
+  2-安装"sudo bash burpsuite_community_linux_v2020_6.sh"
   3-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar 2020_2_1-burp-loader-helper.jar
@@ -67,9 +67,11 @@
 
 - [3. 微信公众号: Pany的自留地]()
 
-- [4. Mrxn's Blog](https://mrxn.net/)
+- [4. 微信公众号: 利刃信安]()
 
-- [5. 小晨曦](https://xcxmiku.com/)
+- [5. Mrxn's Blog](https://mrxn.net/)
+
+- [6. 小晨曦](https://xcxmiku.com/)
 
 > **致敬**
 
