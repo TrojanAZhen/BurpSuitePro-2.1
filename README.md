@@ -4,6 +4,8 @@
 
 - **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
 
+- **[Mega - zip包](https://mega.nz/file/b94zzJSB#-gER_2ZVsRVfeoGRfdryNyKSZYFrv7ZaLQ8BKziMZIE)**
+
 - **[百度云 - zip包](https://pan.baidu.com/s/1Umg1ka4g7fjrFhnS12WH2g)** *提取码: e6g3* *解压密码：password.txt内的全部内容*
 
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
@@ -16,16 +18,16 @@
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\2020_2_1-burp-loader-helper.jar"
 
   4-打开burpsuite_community.jar
-  Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\2020_7-burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
   5-取消协助，同意协议
-  6-随意修改burp-loader-helper的License Text
+  6-随意修改 2020_2_1-burp-loader-helper 的 License Text
   7-把License复制到BurpSuite
   8-点击Manual activation，点击Copy request
-  9-把Request复制到burp-loader-helper的Activation Request
+  9-把Request复制到 2020_2_1-burp-loader-helper 的Activation Request
   10-把自动生成的Activation Response复制回BurpSuite
   11-完成，开始使用
-  12-持久启动必须先加载loader，不然依旧要license key
+  12-持久启动必须先加载 2020_7-burp-loader-x-Ai.jar，不然依旧要license key
   ```
 
 **bat_script**
@@ -47,16 +49,16 @@
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar 2020_2_1-burp-loader-helper.jar
 
   5-启动BurpSuiteCommunity
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/burp-loader-helper.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
+  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/2020_7-burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
 
   6-取消协助，同意协议
-  7-随意修改burp-loader-helper的License Text
+  7-随意修改 2020_2_1-burp-loader-helper 的License Text
   8-把License复制到BurpSuite
   9-点击Manual activation，点击Copy request
-  10-把Request复制到burp-loader-helper的Activation Request
+  10-把Request复制到 2020_2_1-burp-loader-helper 的Activation Request
   11-把自动生成的Activation Response复制回BurpSuite
   12-完成，开始使用
-  13-持久启动必须先加载loader，不然依旧要license key
+  13-持久启动必须先加载 2020_7-burp-loader-x-Ai.jar，不然依旧要license key
   14-可以写个执行的shell，扔到/usr/bin下面
   ```
 > **依旧坚持更新的大佬们**
