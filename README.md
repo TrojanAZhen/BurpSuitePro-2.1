@@ -73,7 +73,7 @@
 - **6. open burp**
 - - `(java version 9-14) java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 - **7. switch to `2020_2_1-burp-keygen.jar` window, `cancel help` , `consent agreement`**
-- **8. modify at will** `2020_2_1-burp-keygen.jar` inside `License Text`**
+- **8. modify at will `2020_2_1-burp-keygen.jar` inside `License Text`**
 - **9. copy the license to burpsuite**
 - **10. click `Manual activation`, copy `request` to `2020_2_1-burp-keygen.jar` 's `Activation request`**
 - **11. copy the automatically generated `Activation Response` back to burpsuite**
