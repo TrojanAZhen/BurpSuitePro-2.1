@@ -61,6 +61,25 @@
   13-持久启动必须先加载 2020_7-burp-loader-x-Ai.jar，不然依旧要license key
   14-可以写个执行的shell，扔到/usr/bin下面
   ```
+> Usage:
+
+- **1. `burp-loader-x-Ai.jar` only the function of starting burpsuite, cracking license must use `2020_2_1-burp-keygen.jar`**
+- **2. if u don't want to install the official burp, u can use only jar file, if u've cracked the license**
+- - `(java version 9-14) java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.7.jar"`
+- **3. u can choose to install the official community edition**
+- **4. rename `burpsuite_pro_v2020.7.jar` to `burpsuite_community.jar`, move `new burpsuite_community.jar` to community `installation path`**
+- **5. start-up `2020_2_1-burp-keygen.jar` to crack license (if u've cracked the license, u can go straight to step 2)**
+- - `java -jar "C:\Users\User\Desktop\2020_2_1-burp-keygen.jar"`
+- **6. open burp**
+- - `(java version 9-14) java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
+- **7. switch to `2020_2_1-burp-keygen.jar` window, `cancel help` , `consent agreement`**
+- **8. modify at will** `2020_2_1-burp-keygen.jar` inside `License Text`**
+- **9. copy the license to burpsuite**
+- **10. click `Manual activation`, copy `request` to `2020_2_1-burp-keygen.jar` 's `Activation request`**
+- **11. copy the automatically generated `Activation Response` back to burpsuite**
+- **12. finish, enjoy**
+- **13. [!] the `burp-loader-x-Ai.jar` must be loaded before persistent startup, or license is still required**
+
 > **依旧坚持更新的大佬们**
 
 - [1. x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
