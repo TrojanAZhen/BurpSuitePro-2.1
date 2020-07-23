@@ -13,10 +13,10 @@
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-x-Ai大佬的loader不带keygen，激活keygen得用 burp-keygen-scz.jar，支持Java9-Java13
+  0-x-Ai大佬的loader不带keygen，keygen激活得用 burp-keygen-scz.jar，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的安装包
   2-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
-  3-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第4步即可)
+  3-启动keygen (keygen用java 13.0.2无任何问题，如果之前已经激活过，直接进行第4步即可)
   Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-keygen-scz.jar"
 
   4-打开burpsuite_community.jar
@@ -43,11 +43,11 @@
 > **Linux使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-x-Ai大佬的loader不带keygen，激活keygen得用 burp-keygen-scz.jar，支持Java9-Java13
+  0-x-Ai大佬的loader不带keygen，keygen激活得用 burp-keygen-scz.jar，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的sh文件;
   2-安装"sudo bash burpsuite_community_linux_v2020_7.sh"
   3-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
-  4-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
+  4-启动keygen (keygen用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar burp-keygen-scz.jar
 
   5-启动BurpSuiteCommunity
