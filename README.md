@@ -2,6 +2,8 @@
 
 > **破解BurpSuitePro-2020.7版本**
 
+- **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
+
 - **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
 
 - **[Mega - zip包](https://mega.nz/file/b94zzJSB#-gER_2ZVsRVfeoGRfdryNyKSZYFrv7ZaLQ8BKziMZIE)**
@@ -82,17 +84,17 @@
 
 > **依旧坚持更新的大佬们**
 
-- [1. x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
+- [1. 目前可用的通杀loader from x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
 
-- [2. Dr.FarFar](https://www.dr-farfar.com/)
+- [2. 微信公众号: 信安前线]()
 
-- [3. 微信公众号: Pany的自留地]()
+- [3. 法海之路](https://www.fahai.org/)
 
-- [4. 微信公众号: 利刃信安]()
+- [4. Mrxn's Blog](https://mrxn.net/)
 
-- [5. Mrxn's Blog](https://mrxn.net/)
+- [5. 小晨曦](https://xcxmiku.com/)
 
-- [6. 小晨曦](https://xcxmiku.com/)
+- [6. 微信公众号: Pany的自留地]()
 
 > **致敬**
 
