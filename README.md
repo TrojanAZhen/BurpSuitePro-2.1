@@ -13,28 +13,28 @@
 > **Win使用 (当然不安装官方包也可以，直接执行-jar jar包)**
 
   ```
-  0-x-Ai大佬的loader不带keygen，激活keygen得用旧版本，支持Java9-Java13
+  0-x-Ai大佬的loader不带keygen，激活keygen得用 burp-keygen-scz.jar，支持Java9-Java13
   1-在BurpSuite官网，下载Community版本的安装包
   2-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   3-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第4步即可)
-  Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\2020_2_1-burp-loader-helper.jar"
+  Powershell：java -jar "C:\Program Files\BurpSuiteCommunity\burp-keygen-scz.jar"
 
   4-打开burpsuite_community.jar
-  Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\2020_7-burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
+  Powershell：java -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"
   
   5-取消协助，同意协议
-  6-随意修改 2020_2_1-burp-loader-helper 的 License Text
+  6-随意修改 burp-keygen-scz 的 License Text
   7-把License复制到BurpSuite
   8-点击Manual activation，点击Copy request
-  9-把Request复制到 2020_2_1-burp-loader-helper 的Activation Request
+  9-把Request复制到 burp-keygen-scz 的Activation Request
   10-把自动生成的Activation Response复制回BurpSuite
   11-完成，开始使用
-  12-持久启动必须先加载 2020_7-burp-loader-x-Ai.jar，不然依旧要license key
+  12-持久启动必须先加载 burp-loader-x-Ai.jar，不然依旧要license key
   ```
 
 **bat_script**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-helper.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
+- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Program Files\BurpSuiteCommunity\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 
 **TLS1.3和ipv4的问题**
 
@@ -48,36 +48,36 @@
   2-安装"sudo bash burpsuite_community_linux_v2020_7.sh"
   3-把pro版的jar包，改名为burpsuite_community.jar，并替换软件安装目录下的burpsuite_community.jar
   4-启动旧版loader(loader用java 13.0.2无任何问题，如果之前已经激活过，直接进行第5步即可)
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar 2020_2_1-burp-loader-helper.jar
+  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar burp-keygen-scz.jar
 
   5-启动BurpSuiteCommunity
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/2020_7-burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
+  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuiteCommunity/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuiteCommunity/burpsuite_community.jar
 
   6-取消协助，同意协议
-  7-随意修改 2020_2_1-burp-loader-helper 的License Text
+  7-随意修改 burp-keygen-scz 的License Text
   8-把License复制到BurpSuite
   9-点击Manual activation，点击Copy request
-  10-把Request复制到 2020_2_1-burp-loader-helper 的Activation Request
+  10-把Request复制到 burp-keygen-scz 的Activation Request
   11-把自动生成的Activation Response复制回BurpSuite
   12-完成，开始使用
-  13-持久启动必须先加载 2020_7-burp-loader-x-Ai.jar，不然依旧要license key
+  13-持久启动必须先加载 burp-loader-x-Ai.jar，不然依旧要license key
   14-可以写个执行的shell，扔到/usr/bin下面
   ```
 > Usage:
 
-- **1. `burp-loader-x-Ai.jar` only the function of starting burpsuite, cracking license must use `2020_2_1-burp-keygen.jar`**
+- **1. `burp-loader-x-Ai.jar` only the function of starting burpsuite, cracking license must use `burp-keygen-scz.jar`**
 - **2. if u don't want to install the official burp, u can use only jar file, if u've cracked the license**
 - - `(java version 9-14) java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.7.jar"`
 - **3. u can choose to install the official community edition**
 - **4. rename `burpsuite_pro_v2020.7.jar` to `burpsuite_community.jar`, move `new burpsuite_community.jar` to community `installation path`**
-- **5. start-up `2020_2_1-burp-keygen.jar` to crack license (if u've cracked the license, u can go straight to step 2)**
-- - `java -jar "C:\Users\User\Desktop\2020_2_1-burp-keygen.jar"`
+- **5. start-up `burp-keygen-scz.jar` to crack license (if u've cracked the license, u can go straight to step 2)**
+- - `java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"`
 - **6. open burp**
 - - `(java version 9-14) java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Program Files\BurpSuiteCommunity\burpsuite_community.jar"`
 - **7. `cancel help` , `consent agreement`**
-- **8. switch to `2020_2_1-burp-keygen.jar` window, modify at will `License Text`**
+- **8. switch to `burp-keygen-scz.jar` window, modify at will `License Text`**
 - **9. copy the `License` to burpsuite**
-- **10. click `Manual activation`, copy `request` to `2020_2_1-burp-keygen.jar` 's `Activation request`**
+- **10. click `Manual activation`, copy `request` to `burp-keygen-scz.jar` 's `Activation request`**
 - **11. copy the automatically generated `Activation Response` back to burpsuite**
 - **12. finish, enjoy**
 - **13. [!] the `burp-loader-x-Ai.jar` must be loaded before persistent startup, or license is still required**
