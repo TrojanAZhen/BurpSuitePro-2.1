@@ -6,7 +6,7 @@
 
 - **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
 
-- **[学习通直链 - zip包](https://d0.ananas.chaoxing.com/download/a287f94bd0058abc0a89e6c04cba3540?fn=burpsuite_pro_v2020.8)**
+- **[学习通直链 - zip包](https://d0.ananas.chaoxing.com/download/a287f94bd0058abc0a89e6c04cba3540?fn=burpsuite_pro_v2020.8)** *若提示403,请复制链接到新窗口*
 
 - **[Mega - Jar](https://mega.nz/file/fPJX3IbR#J25pLrhIz6wRrERhaoV8_2vqwrHEJmURGrzT-Vao2l8)**
 
