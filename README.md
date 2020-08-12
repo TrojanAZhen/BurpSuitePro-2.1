@@ -16,7 +16,7 @@
 
   ```
   0x00 - 配置好java环境，Java9-Java13
-  0x01 - 启动 burp-keygen-scz.jar
+  0x01 - 启动 burp-keygen-scz.jar，用来破解license
   Powershell：java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"
 
   0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.jar
@@ -53,7 +53,7 @@
 
   ```
   0x00 - 配置好java环境，Java9-Java13
-  0x01 - 启动 burp-keygen-scz.jar
+  0x01 - 启动 burp-keygen-scz.jar，用来破解license
   /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar /opt/BurpSuite/burp-keygen-scz.jar
 
   0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.jar
