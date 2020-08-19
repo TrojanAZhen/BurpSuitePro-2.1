@@ -10,7 +10,7 @@
 
 - **[Mega - Jar](https://mega.nz/file/fPJX3IbR#J25pLrhIz6wRrERhaoV8_2vqwrHEJmURGrzT-Vao2l8)**
 
-- **[天翼云免登录快速下载](http://free189.orgfree.com/)**
+- **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
 > **Win使用**
 
