@@ -10,6 +10,8 @@
 
 - **[Mega - Jar](https://mega.nz/file/fPJX3IbR#J25pLrhIz6wRrERhaoV8_2vqwrHEJmURGrzT-Vao2l8)**
 
+- **[天翼云免登录快速下载](http://free189.orgfree.com/)**
+
 > **Win使用**
 
 *一、初次使用*
