@@ -104,15 +104,17 @@
 
 - [1. 目前可用的通杀loader from x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
 
-- [2. 微信公众号: 信安前线]()
+- [2. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
-- [3. 法海之路](https://www.fahai.org/)
+- [3. 微信公众号: 信安前线]()
 
-- [4. Mrxn's Blog](https://mrxn.net/)
+- [4. 法海之路](https://www.fahai.org/)
 
-- [5. 小晨曦](https://xcxmiku.com/)
+- [5. Mrxn's Blog](https://mrxn.net/)
 
-- [6. 微信公众号: Pany的自留地]()
+- [6. 小晨曦](https://xcxmiku.com/)
+
+- [7. 微信公众号: Pany的自留地]()
 
 > **致敬**
 
@@ -180,6 +182,8 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
   终于有人开始自力更生提供同型loader，这是好事。不好的一点是，
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
   ```
+
+**虽然四哥已经不再提供 keygen&loader，但四哥blog依旧坚持更新pro jar包下载地址**
 
 > **某些错误**
 
