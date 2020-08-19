@@ -184,6 +184,10 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 > **某些错误**
 
 ```
+JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclasspath/p选项以及系统属性sun.boot.class.path
+
+所以 Java9-Java13 要用 javaagent
+
 Burp Suite 2020.8
     存疑：使用汉化可能存在闪退
 
