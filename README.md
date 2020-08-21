@@ -12,6 +12,20 @@
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
+> **SHA256 && MD5**
+
+- **Burp Suite Pro Jar 2020.8**
+- - **SHA256: 655d6651f2179d84343c9eee19829a53949f8b1f3e167fa5d45855aa5dc8ff03**
+- - **MD5: 99abd12b4ba0b34874c8fc731c7547ec**
+
+- **burp-keygen-scz**
+- - **SHA256: 74893842a782238f52f0f225c06fa744568321911fea077bc290bd9914b73402**
+- - **MD5: e646b3eef03efba637e6ed794ced4114**
+
+- **burp-loader-x-Ai**
+- - **SHA256: 1e54fbbaf3423c8b15b2507cb1e8c18092b0f728aa705ef8d235ac4300cd3e29**
+- - **MD5: defafc938a0344b188d7273d3dd3eb48**
+
 > **Win使用**
 
 *一、初次使用*
