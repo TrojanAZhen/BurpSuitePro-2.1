@@ -10,6 +10,10 @@
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
+- **[DR.FarFar](https://www.dr-farfar.com/burp-suite-professional-full/)**
+
+- **[Mega - jar](https://mega.nz/folder/LAthQZxQ#24CefPgmwT3j9n8EpsYLtw)**
+
 > **SHA256 && MD5**
 
 - **Burp Suite Pro Jar 2020.8.1**
@@ -206,8 +210,11 @@ JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclassp
 
 所以 Java9-Java13 要用 javaagent
 
+Burp Suite 2020.8.1
+    BUG：网络环境不佳，频繁无响应，需重启；Kali下无法打开自带浏览器
+
 Burp Suite 2020.8
-    存疑：使用汉化可能存在闪退
+    BUG：使用汉化可能存在闪退
 
 Burp Suite 2020.4.1
     BUG：存在消息编辑器中文本重叠的问题【致命，该问题出现在部分用户处】
