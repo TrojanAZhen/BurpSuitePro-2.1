@@ -211,7 +211,8 @@ JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclassp
 所以 Java9-Java13 要用 javaagent
 
 Burp Suite 2020.8.1
-    BUG：网络环境不佳，频繁无响应，需重启；Kali下无法打开自带浏览器
+    BUG：网络环境不佳，频繁无响应，需重启
+   Parrot /Kali：打开自带浏览器 --> Project options --> Misc --> Embedded Browser
 
 Burp Suite 2020.8
     BUG：使用汉化可能存在闪退
