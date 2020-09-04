@@ -1,24 +1,24 @@
-## BurpSuitePro-2020.8.1
+## BurpSuitePro-2020.9
 
-> **破解BurpSuitePro-2020.8.1版本**
+> **破解BurpSuitePro-2020.9版本**
 
 - **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
 
 - **来自** [ParrotSec-cn.org](https://parrotsec-cn.org/) **提供的** [天翼云 - 合集](https://cloud.189.cn/t/E7fyIfuQRzu2) *访问码：fm86*
 
-- **[学习通直链 - zip包](https://d0.ananas.chaoxing.com/download/593a2f0f135baf739e769a0c898ab2f7?fn=burpsuite_pro_v2020.8.1)** *若提示403,请复制链接到新窗口*
+- **[学习通直链 - zip包](https://d0.ananas.chaoxing.com/download/ac5c7209e13693352646514cf5cae431?fn=burpsuite_pro_v2020.9)** *若提示403,请复制链接到新窗口*
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
-- **[DR.FarFar](https://www.dr-farfar.com/burp-suite-professional-full/)**
+- **[Mega](https://mega.nz/file/jN0jQbRK#L8UQZMu9j6jvRZnDwdUuE3ITP5gdDqVTxtDjSddw924)**
 
-- **[Mega - jar](https://mega.nz/folder/LAthQZxQ#24CefPgmwT3j9n8EpsYLtw)**
+- **[百度云](https://pan.baidu.com/s/1HQW6s723FasO5pKrVpv58w)** *提取码: psn3*
 
 > **SHA256 && MD5**
 
-- **Burp Suite Pro Jar 2020.8.1**
-- - **SHA256: 2ed0b526f993c3bd2fd53929ab443bc082e166107d7c034fa7d38f2ebb82026a**
-- - **MD5: a75190e697ff7d7e363e220fd9080ee8**
+- **Burp Suite Pro Jar 2020.9**
+- - **SHA256: 8175e78a42f2959a05830cbf7f082f50edec2ad3dcc58d8609980063a1c91686**
+- - **MD5: bccee79151a2648d33e29da081703c9c**
 
 - **burp-keygen-scz**
 - - **SHA256: 74893842a782238f52f0f225c06fa744568321911fea077bc290bd9914b73402**
@@ -33,12 +33,12 @@
 *一、初次使用*
 
   ```
-  0x00 - 配置好java环境，Java9-Java13
+  0x00 - 配置好java环境，Java9-Java14
   0x01 - 启动 burp-keygen-scz.jar，用来破解license
   Powershell：java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"
 
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.1.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.8.1.jar"
+  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.9.jar
+  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.9.jar"
 
   0x03 - BurpSuite界面取消协助，同意协议
   0x04 - 随意修改 burp-keygen-scz 的 License Text
@@ -53,13 +53,13 @@
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.1.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.8.1.jar"
+  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.9.jar
+  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.9.jar"
   ```
 
 **bat_script**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.8.1.jar"`
+- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.9.jar"`
 
 **TLS1.3和ipv4的问题**
 
@@ -70,12 +70,12 @@
 *一、初次使用*
 
   ```
-  0x00 - 配置好java环境，Java9-Java13
+  0x00 - 配置好java环境，Java9-Java14
   0x01 - 启动 burp-keygen-scz.jar，用来破解license
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -jar /opt/BurpSuite/burp-keygen-scz.jar
+  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -jar /opt/BurpSuite/burp-keygen-scz.jar
 
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.1.jar
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.8.1.jar
+  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.9.jar
+  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.9.jar
 
   0x03 - BurpSuite界面取消协助，同意协议
   0x04 - 随意修改 burp-keygen-scz 的 License Text
@@ -91,8 +91,8 @@
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.8.1.jar
-  /usr/lib/jvm/java-13-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.8.1.jar
+  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.9.jar
+  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.9.jar
   ```
 
 > Usage:
@@ -100,11 +100,11 @@
 *[!]- First use Burpsuite*
 
 - **0x01. `burp-loader-x-Ai.jar` only the function of starting burpsuite, cracking license must use `burp-keygen-scz.jar`**
-- **0x02. configure Java environment, Java9 - Java13**
+- **0x02. configure Java environment, Java9 - Java14**
 - **0x03. start-up `burp-keygen-scz.jar` to crack license**
 - - `java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"`
 - **0x04. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.8.1.jar"`
+- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.9.jar"`
 - **0x05. `burpsuite` window, `cancel help` , `consent agreement`**
 - **0x06. switch to `burp-keygen-scz.jar` window, modify at will `License Text`**
 - **0x07. copy the `License` to burpsuite**
@@ -116,7 +116,7 @@
 *[!]- if u've cracked the license*
 
 - **0x01. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.8.1.jar"`
+- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.9.jar"`
 
 > **依旧坚持更新的大佬们**
 
@@ -208,11 +208,13 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 ```
 JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclasspath/p选项以及系统属性sun.boot.class.path
 
-所以 Java9-Java13 要用 javaagent
+所以 Java9-Java14 要用 javaagent
+
+JDK13虽然警告-noverify在之后的版本将被舍弃，但JDK14依旧可以用
 
 Burp Suite 2020.8.1
     BUG：网络环境不佳，频繁无响应，需重启
-   Parrot /Kali：打开自带浏览器 --> Project options --> Misc --> Embedded Browser
+    Parrot / Kali：打开自带浏览器 --> Project options --> Misc --> Embedded Browser
 
 Burp Suite 2020.8
     BUG：使用汉化可能存在闪退
