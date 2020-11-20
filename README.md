@@ -1,10 +1,6 @@
 ## BurpSuitePro-2020.11.1
 
-> **BurpSuitePro-2020.11.1版本**
-
-*遵从 @nszy007 老哥的意思，11.1版本不开放下载（毕竟总有沙雕玩儿举报这种恶心的操作），要么等四哥Blog更新下载链接，要么去 QQ群：信安前线 获取*
-
-> **破解BurpSuitePro-2020.11版本**
+> **破解BurpSuitePro-2020.11.1版本**
 
 - **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
 
@@ -12,11 +8,7 @@
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
-- **[Anonfiles](https://anonfiles.com/Fdl5qcodp5/burpsuite_pro_v2020.11_jar)**
-
-- **[文叔叔](https://www.wenshushu.cn/f/3y5y6o2okmm)**
-
-- **[百度云](https://pan.baidu.com/s/1L2OUgN40XJwgwIrMCpbInQ)** *提取码：l837*
+- **[百度云](https://pan.baidu.com/s/1W-M9SO5ZvQmXd4ePNQi-gA)** *提取码：nnsk*
 
 > **SHA256 && MD5**
 
