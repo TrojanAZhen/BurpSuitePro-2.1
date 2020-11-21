@@ -120,15 +120,15 @@
 
 - [2. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
-- [3. 微信公众号: 信安前线]()
+- [3. @nszy007]()
 
-- [4. 法海之路](https://www.fahai.org/)
+- [4. 微信公众号: 信安前线]()
 
-- [5. Mrxn's Blog](https://mrxn.net/)
+- [5. 法海之路](https://www.fahai.org/)
 
-- [6. 小晨曦](https://xcxmiku.com/)
+- [6. Mrxn's Blog](https://mrxn.net/)
 
-- [7. 微信公众号: Pany的自留地]()
+- [7. 小晨曦](https://xcxmiku.com/)
 
 > **致敬**
 
@@ -208,7 +208,7 @@ JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclassp
 
 JDK13虽然警告-noverify在之后的版本将被舍弃，但JDK14依旧可以用
 
-Parrot / Kali：打开自带浏览器 --> Project options --> Misc --> Embedded Browser
+Parrot / Kali：打开内置浏览器 --> Project options --> Misc --> Embedded Browser
 
 Burp Suite 2020.11
     BUG：某些错误会导致Bp无法正常启动，遇到错误后再重新启动Bp无法加载现有项目
@@ -229,10 +229,7 @@ Burp Suite 2020.4
     BUG：存在消息编辑器中文本重叠
 
 Burp Suite 2020.2.1
-    BUG：Burp Repeater中发送的每个请求的响应时间不可以正确显示【影响延时注入判定，没有响应时间，很影响使用】
-
-Burp Suite 2020.2
-    特征：文本显示正常，输入中文正常，响应时间显示正常
+    BUG：Burp Repeater中发送的每个请求的响应时间不可以正确显示【影响延时注入判定，没有响应时间】
 
 Burp Suite 2020.1
     BUG：输入中文异常,中文乱码
