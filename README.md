@@ -237,3 +237,19 @@ Burp Suite 2020.2
 Burp Suite 2020.1
     BUG：输入中文异常,中文乱码
 ```
+
+> **Bp相关**
+
+```
+# Linux Bp激活信息保存位置
+~/.java/.userPrefs/burp
+
+# Linux Bp配置文件位置
+~/.BurpSuite
+
+# Windows Bp激活信息保存位置
+注册表：HKEY_CURRENT_USER\Software\JavaSoft\Prefs\burp
+
+# Windows Bp配置文件位置
+C:\Users\%username%\AppData\Roaming\BurpSuite
+```
