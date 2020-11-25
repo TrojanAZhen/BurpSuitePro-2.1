@@ -8,6 +8,8 @@
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
+- **[Mega](https://mega.nz/file/iw4glCJI#TTszy0qGvnffz0V-YCBhYw_9HhvARGO2AxK4IDgW4Y4)**
+
 - **[百度云](https://pan.baidu.com/s/1W-M9SO5ZvQmXd4ePNQi-gA)** *提取码：nnsk*
 
 > **SHA256 && MD5**
