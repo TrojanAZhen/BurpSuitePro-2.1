@@ -1,6 +1,6 @@
-## BurpSuitePro-2020.11.1
+## BurpSuitePro-2020.11.2
 
-> **破解BurpSuitePro-2020.11.1版本**
+> **破解BurpSuitePro-2020.11.2版本**
 
 - **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
 
@@ -8,15 +8,11 @@
 
 - **[天翼云免登录快速下载](http://free189down.byethost11.com/)**
 
-- **[Mega](https://mega.nz/file/iw4glCJI#TTszy0qGvnffz0V-YCBhYw_9HhvARGO2AxK4IDgW4Y4)**
-
-- **[百度云](https://pan.baidu.com/s/1W-M9SO5ZvQmXd4ePNQi-gA)** *提取码：nnsk*
-
 > **SHA256 && MD5**
 
-- **Burp Suite Pro Jar 2020.11.1**
-- - **SHA256: cd9816fed4ad35f019c7ca8a6e1b0419a10f0bdf489fdfbd1e0e1329dcb903a0**
-- - **MD5: fb0630b0161c3459b0c454577177344a**
+- **Burp Suite Pro Jar 2020.11.2**
+- - **SHA256: f07030abfdd50112bfb266d8367c9700e53461a233cab10c402dc9dd96511d3a**
+- - **MD5: 20cba931e3b4ff7c8d518d9b44cf26fb**
 
 - **burp-keygen-scz**
 - - **SHA256: 74893842a782238f52f0f225c06fa744568321911fea077bc290bd9914b73402**
@@ -35,8 +31,8 @@
   0x01 - 启动 burp-keygen-scz.jar，用来破解license
   Powershell：java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"
 
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.1.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.1.jar"
+  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.2.jar
+  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.2.jar"
 
   0x03 - BurpSuite界面取消协助，同意协议
   0x04 - 随意修改 burp-keygen-scz 的 License Text
@@ -51,13 +47,13 @@
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.1.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.1.jar"
+  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.2.jar
+  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.2.jar"
   ```
 
 **bat_script**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.1.jar"`
+- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.2.jar"`
 
 **TLS1.3和ipv4的问题**
 
@@ -72,8 +68,8 @@
   0x01 - 启动 burp-keygen-scz.jar，用来破解license
   /usr/lib/jvm/java-14-openjdk-amd64/bin/java -jar /opt/BurpSuite/burp-keygen-scz.jar
 
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.1.jar
-  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.1.jar
+  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.2.jar
+  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.2.jar
 
   0x03 - BurpSuite界面取消协助，同意协议
   0x04 - 随意修改 burp-keygen-scz 的 License Text
@@ -89,8 +85,8 @@
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.1.jar
-  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.1.jar
+  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.2.jar
+  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.2.jar
   ```
 
 > Usage:
@@ -102,7 +98,7 @@
 - **0x03. start-up `burp-keygen-scz.jar` to crack license**
 - - `java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"`
 - **0x04. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.1.jar"`
+- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.2.jar"`
 - **0x05. `burpsuite` window, `cancel help` , `consent agreement`**
 - **0x06. switch to `burp-keygen-scz.jar` window, modify at will `License Text`**
 - **0x07. copy the `License` to burpsuite**
@@ -114,7 +110,7 @@
 *[!]- if u've cracked the license*
 
 - **0x01. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.1.jar"`
+- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.2.jar"`
 
 > **依旧坚持更新的大佬们**
 
