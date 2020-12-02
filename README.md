@@ -4,19 +4,21 @@
 
 - **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
 
-*不知是官方故意还是无意开放了未授权下载接口*
+**据官方消息，官方对网站进行了调整，且故意开放了各系统的下载接口**
 
-**各下载方式**
+**下载方式**
 
-`https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=Jar`
+```
+https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=jar
 
-`https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=windowsx64`
+https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=windowsx64
 
-`https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=macosx`
+https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=macosx
 
-`https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=linux`
+https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=linux
+```
 
-*不但新版可以下载，旧版本也可以！！！*
+**不但新版可以下载，旧版本也可以！！！**
 
 > **SHA256 && MD5**
 
@@ -254,3 +256,5 @@ Burp Suite 2020.1
 # Windows Bp配置文件位置
 C:\Users\%username%\AppData\Roaming\BurpSuite
 ```
+
+*写在最后，以现有情况，这个git库可能不再更新，除非官方把网站下载方式再次调整，或者改变授权加密方式*
