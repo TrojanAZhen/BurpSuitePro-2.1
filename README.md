@@ -61,7 +61,14 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 
 **bat_script**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"`
+ ```powershell
+ @echo off 
+ if "%1" == "h" goto begin 
+ mshta vbscript:createobject("wscript.shell").run("%~nx0 h",0)(window.close)&&exit 
+ :begin
+ 
+ "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"
+ ```
 
 **TLS1.3和ipv4的问题**
 
