@@ -1,21 +1,13 @@
-## BurpSuitePro-2020.11.3
+## BurpSuitePro-2024.4.5
 
-> **破解BurpSuitePro-2020.11.3版本**
+> **破解BurpSuitePro-2024.4.5版本**
 
-- **[2020.1 - ~ 通杀loader来自x-Ai](https://github.com/x-Ai/BurpSuiteLoader)**
+- **[新版通杀loader来自 h3110w0r1d-y](https://github.com/h3110w0r1d-y/BurpLoaderKeygen/)**
 
-**据官方消息，官方对网站进行了调整，且故意开放了各系统的下载接口**
-
-**下载方式**
+**Jar包下载方式**
 
 ```
-https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=jar
-
-https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=windowsx64
-
-https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=macosx
-
-https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&type=linux
+https://portswigger.net/burp/releases/download?product=pro&version=2024.4.5&type=jar
 ```
 
 **不但新版可以下载，旧版本也可以！！！**
@@ -26,42 +18,42 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 - - **SHA256: 74893842a782238f52f0f225c06fa744568321911fea077bc290bd9914b73402**
 - - **MD5: e646b3eef03efba637e6ed794ced4114**
 
-- **burp-loader-x-Ai**
-- - **SHA256: 1e54fbbaf3423c8b15b2507cb1e8c18092b0f728aa705ef8d235ac4300cd3e29**
-- - **MD5: defafc938a0344b188d7273d3dd3eb48**
+- **BurpLoaderKeygen_v1.17**
+- - **SHA1: 3D0E27962C83C8DB2955FA79C27256442C0BCB55**
+- - **MD5: A3B1B3BE59E6D3D374A2D3344213E6C7**
 
 > **Win使用**
 
 *一、初次使用*
 
   ```
-  0x00 - 配置好java环境，Java9-Java14
-  0x01 - 启动 burp-keygen-scz.jar，用来破解license
-  Powershell：java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"
-
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.3.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"
-
-  0x03 - BurpSuite界面取消协助，同意协议
-  0x04 - 随意修改 burp-keygen-scz 的 License Text
-  0x05 - 把 License 复制到 BurpSuite
-  0x06 - 点击 Manual activation，点击 Copy request
-  0x07 - 把 Request 复制到 burp-keygen-scz 的 Activation Request
-  0x08 - 把自动生成的 Activation Response 复制回 BurpSuite
-  0x09 - 完成，开始使用
-  0x10 - 持久启动必须加载 burp-loader-x-Ai.jar，不然依旧要license key
+  0x00 - 配置好java环境，Java21
+  0x01 - 启动 BurpLoaderKeygen_v1.17.jar
+    CMD：java -jar BurpLoaderKeygen_v1.17"
+  0x02 - 点击Run，BurpSuite界面取消协助，同意协议
+  0x03 - 随意修改 License Text
+  0x04 - 把 License 复制到 BurpSuite
+  0x05 - 点击 Manual activation，点击 Copy request
+  0x06 - 把 Request 复制到 Activation Request
+  0x07 - 把自动生成的 Activation Response 复制回 BurpSuite
+  0x08 - 完成，开始使用
   ```
 
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.3.jar
-  Powershell：java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"
+  0x01 - 直接加载 BurpLoaderKeygen_v1.17.jar 启动 burpsuite_pro_v2024.4.5.jar
+  Powershell：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
   ```
 
 **bat_script**
 
-- `start "" "C:\Program Files (x86)\Common Files\Oracle\Java\javapath\java.exe" -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"`
+ ```powershell
+@SET JAVA_HOME=%~dp0jre-21.0.2\
+@SET Path=%JAVA_HOME%\bin;
+@echo %JAVA_HOME%
+@java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
+ ```
 
 **TLS1.3和ipv4的问题**
 
@@ -72,69 +64,35 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 *一、初次使用*
 
   ```
-  0x00 - 配置好java环境，Java9-Java14
-  0x01 - 启动 burp-keygen-scz.jar，用来破解license
-  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -jar /opt/BurpSuite/burp-keygen-scz.jar
-
-  0x02 - 加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.3.jar
-  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.3.jar
-
-  0x03 - BurpSuite界面取消协助，同意协议
-  0x04 - 随意修改 burp-keygen-scz 的 License Text
-  0x05 - 把 License 复制到 BurpSuite
-  0x06 - 点击 Manual activation，点击 Copy request
-  0x07 - 把 Request 复制到 burp-keygen-scz 的 Activation Request
-  0x08 - 把自动生成的 Activation Response 复制回 BurpSuite
-  0x09 - 完成，开始使用
-  0x10 - 持久启动必须加载 burp-loader-x-Ai.jar，不然依旧要license key
-  0x11 - 可以写个执行的shell，扔到/usr/bin下面
+  0x00 - 配置好java环境，Java21
+  0x01 - 启动 BurpLoaderKeygen_v1.17.jar
+    Terminal：/usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar BurpLoaderKeygen_v1.17"
+  0x02 - 点击Run，BurpSuite界面取消协助，同意协议
+  0x03 - 随意修改 License Text
+  0x04 - 把 License 复制到 BurpSuite
+  0x05 - 点击 Manual activation，点击 Copy request
+  0x06 - 把 Request 复制到 Activation Request
+  0x07 - 把自动生成的 Activation Response 复制回 BurpSuite
+  0x08 - 完成，开始使用
+  0x09 - 可以写个执行的shell，扔到/usr/bin下面
   ```
 
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 burp-loader-x-Ai.jar 启动 burpsuite_pro_v2020.11.3.jar
-  /usr/lib/jvm/java-14-openjdk-amd64/bin/java -Dfile.encoding=utf-8 -noverify -javaagent:/opt/BurpSuite/burp-loader-x-Ai.jar -Xmx2048m -jar /opt/BurpSuite/burpsuite_pro_v2020.11.3.jar
+  0x01 - 直接加载 BurpLoaderKeygen_v1.17.jar 启动 burpsuite_pro_v2024.4.5.jar
+  /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
   ```
-
-> Usage:
-
-*[!]- First use Burpsuite*
-
-- **0x01. `burp-loader-x-Ai.jar` only the function of starting burpsuite, cracking license must use `burp-keygen-scz.jar`**
-- **0x02. configure Java environment, Java9 - Java14**
-- **0x03. start-up `burp-keygen-scz.jar` to crack license**
-- - `java -jar "C:\Users\User\Desktop\burp-keygen-scz.jar"`
-- **0x04. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"`
-- **0x05. `burpsuite` window, `cancel help` , `consent agreement`**
-- **0x06. switch to `burp-keygen-scz.jar` window, modify at will `License Text`**
-- **0x07. copy the `License` to burpsuite**
-- **0x08. click `Manual activation`, copy `request` to `burp-keygen-scz.jar` 's `Activation request`**
-- **0x09. copy the automatically generated `Activation Response` back to burpsuite**
-- **0x10. finish, enjoy**
-- **0x11. [!] the `burp-loader-x-Ai.jar` must be loaded before persistent startup, or license is still required**
-
-*[!]- if u've cracked the license*
-
-- **0x01. open burp**
-- - `java -noverify -javaagent:"C:\Users\User\Desktop\burp-loader-x-Ai.jar" -Xmx2048m -jar "C:\Users\User\Desktop\burpsuite_pro_v2020.11.3.jar"`
 
 > **依旧坚持更新的大佬们**
 
-- [1. 目前可用的通杀loader from x-Ai](https://github.com/x-Ai/BurpSuiteLoader)
+- [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
-- [2. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
+- [2. @nszy007]()
 
-- [3. @nszy007]()
+- [3. 微信公众号: 信安前线]()
 
-- [4. 微信公众号: 信安前线]()
-
-- [5. 法海之路](https://www.fahai.org/)
-
-- [6. Mrxn's Blog](https://mrxn.net/)
-
-- [7. 小晨曦](https://xcxmiku.com/)
+- [4. 法海之路](https://www.fahai.org/)
 
 > **致敬**
 
@@ -142,9 +100,7 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
 
-> **某个可以第一时间更新pro jar包的网站(但多数收费)**
-
-- [Raidforums](https://raidforums.com/Forum-Cracking-Tools)
+- [3. 破解BurpSuite Pro 2022.9 (有变化)](https://www.52pojie.cn/thread-1687434-1-1.html)
 
 > **破解**
 
@@ -152,9 +108,10 @@ https://portswigger.net/burp/releases/download?product=pro&version=2020.11.3&typ
 Java 9至13，可以用javaagent的方式patch，这种在8上也能用。
 Java 9至13，还可以用patch-module的方式，但8不能用。
 如果Burp Pro不换注册机制，可以一直这样剁下去，改来改去就7个字节。
-有VirusTotal企业帐号的可以从VT下原包。
 
 四哥原话在Bp破解上最大的贡献是演示了一种直接修改字节码的破解方式
+
+2022.9版注册机制并未发生变化，仅仅是相关代码具体实现做了微调，导致class的字节码发生变化，而旧版loader模式匹配时约束条件太强，兼容性不足
 ```
 
 **反编译jar For Linux**
@@ -203,44 +160,6 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
   ```
 
-**虽然四哥已经不再提供 keygen&loader，但四哥blog依旧坚持更新pro jar包下载地址**
-
-> **某些错误**
-
-```
-JDK 9中不再支持用于指定引导类路径，-Xbootclasspath和-Xbootclasspath/p选项以及系统属性sun.boot.class.path
-
-所以 Java9-Java14 要用 javaagent
-
-JDK13虽然警告-noverify在之后的版本将被舍弃，但JDK14依旧可以用
-
-Parrot / Kali：打开内置浏览器 --> Project options --> Misc --> Embedded Browser
-
-Burp Suite 2020.11
-    BUG：某些错误会导致Bp无法正常启动，遇到错误后再重新启动Bp无法加载现有项目
-
-Burp Suite 2020.9
-    BUG：WebSocket消息无法在消息编辑器中正确显示
-
-Burp Suite 2020.8.1
-    BUG：网络环境不佳，频繁无响应，需重启
-
-Burp Suite 2020.8
-    BUG：使用汉化可能存在闪退
-
-Burp Suite 2020.4.1
-    BUG：存在消息编辑器中文本重叠
-
-Burp Suite 2020.4
-    BUG：存在消息编辑器中文本重叠
-
-Burp Suite 2020.2.1
-    BUG：Burp Repeater中发送的每个请求的响应时间不可以正确显示【影响延时注入判定，没有响应时间】
-
-Burp Suite 2020.1
-    BUG：输入中文异常,中文乱码
-```
-
 > **Bp相关**
 
 ```
@@ -256,5 +175,3 @@ Burp Suite 2020.1
 # Windows Bp配置文件位置
 C:\Users\%username%\AppData\Roaming\BurpSuite
 ```
-
-*写在最后，以现有情况，这个git库可能不再更新，除非官方把网站下载方式再次调整，或者改变授权加密方式*
