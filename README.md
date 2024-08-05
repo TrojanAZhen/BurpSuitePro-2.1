@@ -1,13 +1,13 @@
-## BurpSuitePro-2024.4.5
+## BurpSuitePro-2024.7
 
-> **破解BurpSuitePro-2024.4.5版本**
+> **破解BurpSuitePro-2024.7版本**
 
 - **[新版通杀loader来自 h3110w0r1d-y](https://github.com/h3110w0r1d-y/BurpLoaderKeygen/)**
 
 **Jar包下载方式**
 
 ```
-https://portswigger.net/burp/releases/download?product=pro&version=2024.4.5&type=jar
+https://portswigger.net/burp/releases/download?product=pro&version=2024.7&type=jar
 ```
 
 **不但新版可以下载，旧版本也可以！！！**
@@ -46,13 +46,17 @@ https://portswigger.net/burp/releases/download?product=pro&version=2024.4.5&type
   Powershell：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
   ```
 
-**bat_script**
+**便携jre无cmd窗bat脚本，LoaderKeygen bp_pro文件及jre-21.0.2，放在同一目录下**
 
  ```powershell
+@echo off
+if "%1"=="h" goto begin
+start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
+:begin
 @SET JAVA_HOME=%~dp0jre-21.0.2\
 @SET Path=%JAVA_HOME%\bin;
 @echo %JAVA_HOME%
-@java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
+@java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_2024.7.jar
  ```
 
 **TLS1.3和ipv4的问题**
