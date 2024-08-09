@@ -26,7 +26,7 @@ https://portswigger.net/burp/releases/download?product=pro&version=2024.6.5&type
 
 *一、初次使用*
 
-  ```
+  ```bash
   0x00 - 配置好java环境，Java21
   0x01 - 启动 BurpLoaderKeygen_v1.17.jar
     CMD：java -jar BurpLoaderKeygen_v1.17"
@@ -41,13 +41,13 @@ https://portswigger.net/burp/releases/download?product=pro&version=2024.6.5&type
 
 *二、使用过bp，已激活过license*
 
-  ```
-  Powershell：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
+  ```bash
+  CMD：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
   ```
 
 **便携jre无cmd窗bat脚本，LoaderKeygen bp_pro文件及jre-21.0.2，放在同一目录下**
 
- ```powershell
+ ```bash
 @echo off
 if "%1"=="h" goto begin
 start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.close)&&exit
@@ -66,7 +66,7 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 
 *一、初次使用*
 
-  ```
+  ```bash
   0x00 - 配置好java环境，Java21
   0x01 - 启动 BurpLoaderKeygen_v1.17.jar
     Terminal：/usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar BurpLoaderKeygen_v1.17
@@ -82,7 +82,7 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 
 *二、使用过bp，已激活过license*
 
-  ```
+  ```bash
   /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
   ```
 
@@ -104,7 +104,7 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 
 - [3. 破解BurpSuite Pro 2022.9 (有变化)](https://www.52pojie.cn/thread-1687434-1-1.html)
 
-```
+```bash
 Java 9至13，可以用javaagent的方式patch，这种在8上也能用。
 Java 9至13，还可以用patch-module的方式，但8不能用。
 如果Burp Pro不换注册机制，可以一直这样剁下去，改来改去就7个字节。
@@ -116,7 +116,7 @@ Java 9至13，还可以用patch-module的方式，但8不能用。
 
 ## 反编译jar For Linux
 
-```
+```bash
 -classpath <路径>            指定查找用户类文件和注释处理程序的位置
 
 -d <目录>                    指定放置生成的类文件的位置
@@ -136,7 +136,7 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 
 **2020-04-28 17:23 scz -- 来自四哥博客**
 
-- ```
+- ```bash
   有人提供了Burp Pro 2020.4原包，要求最低Java 9，不再支持Java 8。实际测试
   Java 8确实不行，去官网看了一下说明，官方声明也是这个意思。出于好奇心，最后
   看了一次其注册机制，没啥变化，可剁。我主要使用Java 8，并非Burp用户，能在这
@@ -154,7 +154,7 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 
 **2020-03-24 15:01 scz -- 来自四哥博客**
 
-- ```
+- ```bash
   迭代太快，如无绝对必要，还是用老版吧。在我发了各次迭代对应的loader之后，
   终于有人开始自力更生提供同型loader，这是好事。不好的一点是，
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
@@ -162,7 +162,7 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 
 ## Bp激活文件及配置文件
 
-```
+```bash
 # Linux Bp激活信息保存位置
 ~/.java/.userPrefs/burp
 
