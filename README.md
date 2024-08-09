@@ -62,14 +62,14 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 
 - `-Djava.net.preferIPv4Stack=true`
 
-### Linux使用
+### Linux
 
 *一、初次使用*
 
   ```
   0x00 - 配置好java环境，Java21
   0x01 - 启动 BurpLoaderKeygen_v1.17.jar
-    Terminal：/usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar BurpLoaderKeygen_v1.17"
+    Terminal：/usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar BurpLoaderKeygen_v1.17
   0x02 - 点击Run，BurpSuite界面取消协助，同意协议
   0x03 - 随意修改 License Text
   0x04 - 把 License 复制到 BurpSuite
