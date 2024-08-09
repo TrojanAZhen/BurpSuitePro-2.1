@@ -1,18 +1,16 @@
-## BurpSuitePro-2024.7
-
-> **破解BurpSuitePro-2024.7版本**
+## 补丁及下载
 
 - **[新版通杀loader来自 h3110w0r1d-y](https://github.com/h3110w0r1d-y/BurpLoaderKeygen/)**
 
 **Jar包下载方式**
 
 ```
-https://portswigger.net/burp/releases/download?product=pro&version=2024.7&type=jar
+https://portswigger.net/burp/releases/download?product=pro&version=2024.6.5&type=jar
 ```
 
 **不但新版可以下载，旧版本也可以！！！**
 
-> **SHA256 && MD5**
+## SHA256及MD5
 
 - **burp-keygen-scz**
 - - **SHA256: 74893842a782238f52f0f225c06fa744568321911fea077bc290bd9914b73402**
@@ -22,7 +20,9 @@ https://portswigger.net/burp/releases/download?product=pro&version=2024.7&type=j
 - - **SHA1: 3D0E27962C83C8DB2955FA79C27256442C0BCB55**
 - - **MD5: A3B1B3BE59E6D3D374A2D3344213E6C7**
 
-> **Win使用**
+## 食用方法
+
+### Win
 
 *一、初次使用*
 
@@ -42,8 +42,7 @@ https://portswigger.net/burp/releases/download?product=pro&version=2024.7&type=j
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 BurpLoaderKeygen_v1.17.jar 启动 burpsuite_pro_v2024.4.5.jar
-  Powershell：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
+  Powershell：java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
   ```
 
 **便携jre无cmd窗bat脚本，LoaderKeygen bp_pro文件及jre-21.0.2，放在同一目录下**
@@ -56,14 +55,14 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 @SET JAVA_HOME=%~dp0jre-21.0.2\
 @SET Path=%JAVA_HOME%\bin;
 @echo %JAVA_HOME%
-@java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_2024.7.jar
+@java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
  ```
 
 **TLS1.3和ipv4的问题**
 
 - `-Djava.net.preferIPv4Stack=true`
 
-> **Linux使用**
+### Linux使用
 
 *一、初次使用*
 
@@ -84,11 +83,10 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 *二、使用过bp，已激活过license*
 
   ```
-  0x01 - 直接加载 BurpLoaderKeygen_v1.17.jar 启动 burpsuite_pro_v2024.4.5.jar
-  /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro_v2024.4.5.jar
+  /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+IgnoreUnrecognizedVMOptions -javaagent:BurpLoaderKeygen_v1.17.jar=loader, --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -Xmx2048m -jar burpsuite_pro.jar
   ```
 
-> **依旧坚持更新的大佬们**
+## 依旧坚持更新的大佬们
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
@@ -98,15 +96,13 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 
 - [4. 法海之路](https://www.fahai.org/)
 
-> **致敬**
+## 致敬
 
 - [1. 四哥Blog](http://scz.617.cn:8/misc/201910151519.txt)
 
 - [2. 四哥微信公众号: 青衣十三楼飞花堂]()
 
 - [3. 破解BurpSuite Pro 2022.9 (有变化)](https://www.52pojie.cn/thread-1687434-1-1.html)
-
-> **破解**
 
 ```
 Java 9至13，可以用javaagent的方式patch，这种在8上也能用。
@@ -118,7 +114,7 @@ Java 9至13，还可以用patch-module的方式，但8不能用。
 2022.9版注册机制并未发生变化，仅仅是相关代码具体实现做了微调，导致class的字节码发生变化，而旧版loader模式匹配时约束条件太强，兼容性不足
 ```
 
-**反编译jar For Linux**
+## 反编译jar For Linux
 
 ```
 -classpath <路径>            指定查找用户类文件和注释处理程序的位置
@@ -136,7 +132,7 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 
 [参考jas502n](https://github.com/jas502n/BurpSuite_Pro_v1.7.37/blob/master/README.md)
 
-> **其他**
+## 其他
 
 **2020-04-28 17:23 scz -- 来自四哥博客**
 
@@ -164,7 +160,7 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
   某些人只提供loader，不提供原包。老中医看不惯这些SB们，只好继续1024了。
   ```
 
-> **Bp相关**
+## Bp激活文件及配置文件
 
 ```
 # Linux Bp激活信息保存位置
@@ -177,5 +173,5 @@ javac -classpath burp-loader-keygen.jar -d . enjoy/reversing/me/KeygenDialog.jav
 注册表：HKEY_CURRENT_USER\Software\JavaSoft\Prefs\burp
 
 # Windows Bp配置文件位置
-C:\Users\%username%\AppData\Roaming\BurpSuite
+%APPDATA%\BurpSuite
 ```
